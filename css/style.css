@@ -25,7 +25,7 @@
     width: 100%;
     height: 100%;
 }
-a, p, h3, h4 {
+a, p, h4 {
     font-size: 17px;
     color: rgb(149, 149, 149);
 }
@@ -110,6 +110,10 @@ main .main-body #img-center {
 }
 main .main-body #img-right {
     background-image: url(../img/img-3.jpg);
+}
+main .main-body h3 {
+    line-height: 60px;
+    font-weight: 400;
 }
 
 /* ++++++ footer ++++++ */
