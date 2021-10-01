@@ -24,7 +24,10 @@
     background-color:  rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100%;
-    color: white;
+}
+a, p, h3, h4 {
+    font-size: 17px;
+    color: rgb(149, 149, 149);
 }
 
 /* ++++++ header ++++++ */
@@ -46,7 +49,6 @@ header nav li {
 header nav li a {
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(149, 149, 149);
 }
 
 /* ++++++ jumbotron ++++++ */
@@ -64,18 +66,25 @@ header nav li a {
     font-weight: 400;
     font-size: 30px;
     line-height: 40px;
+    color: white;
 }
 .jumbotron p {
     font-weight: 300;
-    font-size: 15px;
     line-height: 20px;
     text-align: justify;
+    color: white;
 }
 
 /* ++++++ main ++++++ */
+
+/* main header */
 main .main-header {
-    height: 70px;
+    padding: 20px 0;
 }
+main .main-header h4 {
+    font-weight: 300;
+}
+/* main body */
 main .main-body {
     padding: 20px 0;
 }
