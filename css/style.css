@@ -29,6 +29,11 @@ a, p, h4 {
     font-size: 17px;
     color: rgb(149, 149, 149);
 }
+p {
+    font-weight: 300;
+    line-height: 20px;
+    text-align: justify;
+}
 
 /* ++++++ header ++++++ */
 header #logo {
@@ -69,9 +74,6 @@ header nav li a {
     color: white;
 }
 .jumbotron p {
-    font-weight: 300;
-    line-height: 20px;
-    text-align: justify;
     color: white;
 }
 
