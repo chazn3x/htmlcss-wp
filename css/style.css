@@ -32,7 +32,6 @@ a, p, h4 {
 p {
     font-weight: 300;
     line-height: 20px;
-    text-align: justify;
 }
 
 /* ++++++ header ++++++ */
@@ -121,7 +120,12 @@ main .main-body h3 {
 /* ++++++ footer ++++++ */
 footer {
     height: 50px;
-    margin-top: 10px;
+    margin: 10px 0;
+    line-height: 50px;
+    text-align: center;
+}
+footer .red {
+    color: red;
 }
 
 /* ++++++ debug ++++++ */
